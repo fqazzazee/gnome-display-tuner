@@ -1,0 +1,10 @@
+{
+  "uuid": "display-tuner@tesla.local",
+  "name": "Display Tuner",
+  "description": "NVIDIA-control-panel style color controls in Quick Settings: digital vibrance, saturation, contrast, brightness, gamma, color temperature, plus per-monitor color mode (SDR/HDR/native gamut) and RGB range. Works on Wayland with any GPU.",
+  "url": "https://github.com/fqazzazee/gnome-display-tuner",
+  "settings-schema": "org.gnome.shell.extensions.display-tuner",
+  "shell-version": [
+    "50"
+  ]
+}

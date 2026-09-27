@@ -1,0 +1,13 @@
+.display-tuner-row {
+    spacing: 4px;
+}
+
+.display-tuner-value {
+    font-feature-settings: "tnum";
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.display-tuner-header {
+    font-weight: bold;
+    padding-top: 6px;
+}

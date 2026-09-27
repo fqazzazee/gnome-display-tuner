@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.display-tuner" path="/org/gnome/shell/extensions/display-tuner/">
+    <key name="enabled" type="b">
+      <default>true</default>
+    </key>
+    <key name="vibrance" type="d">
+      <default>0.0</default>
+      <summary>Digital vibrance (-1 to 1, 0 = neutral)</summary>
+    </key>
+    <key name="saturation" type="d">
+      <default>1.0</default>
+    </key>
+    <key name="contrast" type="d">
+      <default>1.0</default>
+    </key>
+    <key name="brightness" type="d">
+      <default>0.0</default>
+    </key>
+    <key name="gamma" type="d">
+      <default>1.0</default>
+    </key>
+    <key name="temperature" type="d">
+      <default>0.0</default>
+      <summary>Color temperature (-1 cool to 1 warm)</summary>
+    </key>
+    <key name="presets" type="a{sa{sd}}">
+      <default>{
+        'Desktop': {'vibrance': 0.0, 'saturation': 1.0, 'contrast': 1.0, 'brightness': 0.0, 'gamma': 1.0, 'temperature': 0.0},
+        'Gaming': {'vibrance': 0.4, 'saturation': 1.05, 'contrast': 1.05, 'brightness': 0.0, 'gamma': 1.0, 'temperature': 0.0}
+      }</default>
+      <summary>Named presets of color adjustment values</summary>
+    </key>
+    <key name="shortcut-toggle" type="as">
+      <default><![CDATA[['<Super><Alt>v']]]></default>
+      <summary>Toggle color adjustments on/off</summary>
+    </key>
+    <key name="shortcut-next-preset" type="as">
+      <default><![CDATA[['<Super><Alt>p']]]></default>
+      <summary>Switch to the next preset</summary>
+    </key>
+    <key name="shortcut-preset-desktop" type="as">
+      <default><![CDATA[['<Super><Alt>d']]]></default>
+      <summary>Apply the Desktop preset</summary>
+    </key>
+    <key name="shortcut-preset-gaming" type="as">
+      <default><![CDATA[['<Super><Alt>g']]]></default>
+      <summary>Apply the Gaming preset</summary>
+    </key>
+  </schema>
+</schemalist>
