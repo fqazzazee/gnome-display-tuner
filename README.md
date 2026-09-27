@@ -1,5 +1,8 @@
 # Display Tuner
 
+<img width="1243" height="1195" alt="image" src="https://github.com/user-attachments/assets/6ab8ff01-535e-4ee0-b87f-2e300cf53857" />
+
+
 NVIDIA-control-panel style color controls for GNOME Shell: **digital vibrance**, saturation, contrast, brightness, gamma and color temperature. You get them as sliders in Quick Settings, with presets and keyboard shortcuts. It also lets you switch your monitor's **color mode** (SDR / wide gamut / HDR) and **RGB range** (full / limited).
 
 It works on **Wayland** and with **any GPU**. It was written because NVIDIA's digital vibrance (`nvidia-settings`, vibrantLinux, …) only works on X11.
