@@ -77,6 +77,10 @@ gnome-extensions enable display-tuner@tesla.local
 gnome-extensions uninstall display-tuner@tesla.local
 ```
 
+## Support
+
+If it brought digital vibrance back to your Wayland desktop, you can [buy me a coffee ☕](https://buymeacoffee.com/fqazzazee).
+
 ## License
 
 [GPL-2.0-or-later](LICENSE)
